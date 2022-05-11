@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Document</title>
+<link rel="stylesheet" href="3-main.css">
+</head>
+
+<body>
+	<div class="alert-box" id="alert">
+		<p>Alert 박스</p>
+		<button onclick ="알림창닫기()">닫기</button>
+	</div>
+	<button onclick ="알림창열기()">버튼</button>
+	<script>
+		
+	
+		function 알림창열기(){
+			document.getElementById('alert').style.display = 'block'; 
+		}
+		
+		function 알림창닫기(){
+			document.getElementById('alert').style.display = 'none'; 
+		}
+		
+	</script>
+</body>
+</html>

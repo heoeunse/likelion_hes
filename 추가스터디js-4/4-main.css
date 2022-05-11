@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+
+.alert-box {
+	background: #4F79DF;
+	color: white;
+	padding: 20px;
+	border-radius: 5px;
+	display: none;
+}
