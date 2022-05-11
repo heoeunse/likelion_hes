@@ -87,6 +87,7 @@ h2 {
 	float:right;
 	font-weight: bold;
 }
+
 footer {
     text-align: center;
     background-color: #1e1e1e;
@@ -100,8 +101,25 @@ footer {
 	margin-right: auto;
     margin-left: auto;
 	background: #FFD55B;
-	color: white;
-	padding: 20px;
+	color: black;
+	text-align: center;
+	padding: 10px;
 	border-radius: 5px;
 	display: none;
+	font-size: 20px;
+}
+
+.resume {
+	display: none;
+}
+
+.hi {
+	width: 150px;
+    padding: 10px;
+    margin: 10px;
+	display: block;
+	margin-right: auto;
+    margin-left: auto;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+	
 }

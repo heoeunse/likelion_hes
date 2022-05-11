@@ -3,10 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <title>허은세의 이력서</title>
-    <link rel="stylesheet" href="my_resume.css">
+    <link rel="stylesheet" href="my_resume_js.css">
 </head>
 <body>
+	<div class="alert-box" id="alert">
+		<p>♡ 반갑습니다 ♡</p>
+		<button onclick ="알림창열기('none')"> X </button>
+	</div>
 	
+	<button class="hi" id="hi" onclick ="알림창열기('block'), 등장(), 버튼닫기()">제가 궁금하신가용?</button>
+	
+<section class="resume" id="resume">
     <div class="mainbox"> 
 <div class="float-wrap">
     <div class="title-box">    
@@ -16,7 +23,7 @@
     <p class="email-text">heoeunse82@gmail.com</p>
     <p class="email-text">010-8337-7169</p>
     </div>
-	<img class="photo" src="images/증명사진.jpg" alt="증명사진">
+	<img class="photo" src="file:///C|/Users/USER/Desktop/hes_likelion/w4_html&css-2/images/증명사진.jpg" alt="증명사진">
 	</div>
 	<div class="subbox">	
 	<section>
@@ -58,8 +65,24 @@
  <footer>
       <p>Copyright heoeunse82 All rights reserved.</p>
   </footer>
-
+</section>	
+	<script>
+		
 	
+		function 알림창열기(구멍){
+			document.getElementById('alert').style.display = 구멍; 
+		}
+		
+		
+		function 등장(){
+			document.getElementById('resume').style.display = "block"; 
+		}
+		
+		function 버튼닫기(){
+			document.getElementById('hi').style.display = "none";
+		}
+		
+	</script>
 	
 
 </body>
